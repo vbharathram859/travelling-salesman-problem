@@ -85,8 +85,8 @@ def anneal(sol, dist, mat):
                 break
         T = T * alpha
     display(sol, mat)  # display the final solution
-    plt.plot(costs)
-    plt.show()
+#     plt.plot(costs)
+#     plt.show()
     return sol, old_cost
 
 def local_search(sol, dist, c=0):
